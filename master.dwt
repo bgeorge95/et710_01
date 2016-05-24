@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html ng-app dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+ 	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- #BeginEditable "doctitle" -->
+		<title></title>
+		<!-- #EndEditable -->
+		<link rel="stylesheet" href="footer.css" />
+		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="css/app.css" />
+		<script src="js/vendor/modernizr.js"></script>
+		<script src="scripts/angular.min.js"></script>
+		
+
+	</head>
+
+	<body>
+		<!-- Begin Navigation -->
+		
+
+<div class="row">
+<div class="medium-4 columns">
+<img src="img/collectSPACE_logo-lg.png" alt="company logo">
+</div>
+<div class="medium-8 columns">
+</div>
+</div>
+
+
+
+<div class="top-bar" id="main-menu">
+
+	<ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
+			<ul class="menu">
+			<li class="menu-text"></li>
+			<li><a href="default.html">Home</a></li>
+		</ul>
+	
+	
+		<li class="has-submenu"><a href="#">Planets</a>
+		<ul class="submenu menu vertical" data-submenu>
+			<li><a href="planets/nearbyplanets/default.html">Nearby Planets</a></li>
+			<li><a href="planets/farawayplanets/default.html">Exoplanets</a></li>
+		</ul>
+		</li>
+		
+		<li class="has-submenu"><a href="#">Constellations</a>
+		<ul class="submenu menu vertical" data-submenu>
+			<li><a href="https://stardate.org/nightsky/constellationshttps://stardate.org/nightsky/constellations">Stars</a></li>
+		</ul>
+		</li>
+		
+		<li class="has-submenu"><a href="#">Celestial Events</a>
+		<ul class="submenu menu vertical" data-submenu>
+			<li><a href="http://solarsystem.nasa.gov/planets/cometshttp://solarsystem.nasa.gov/planets/comets">Comets</a></li>
+			<li><a href="http://www.nasa.gov/jpl/asteroids/best-meteor-showershttp://www.nasa.gov/jpl/asteroids/best-meteor-showers">Meteor Showers</a></li>
+			<li><a href="http://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-an-eclipse-58http://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-an-eclipse-58">Eclipse</a></li>
+		</ul>
+		</li>
+		
+		<li class="has-submenu"><a href="#">New Findings</a>
+		<ul class="submenu menu vertical" data-submenu>
+			<li><a href="http://www.sciencechannel.com/tv-shows/are-we-alone/videos/nasa-ufo-sighting-protocol-leads-to-these-photos-of-black-knight-under-space-station/http://www.sciencechannel.com/tv-shows/are-we-alone/videos/nasa-ufo-sighting-protocol-leads-to-these-photos-of-black-knight-under-space-station/">Ufo</a></li>
+			<li><a href="http://www.nasa.gov/ames/kepler/nasas-kepler-discovers-first-earth-size-planet-in-the-habitable-zone-of-another-starhttp://www.nasa.gov/ames/kepler/nasas-kepler-discovers-first-earth-size-planet-in-the-habitable-zone-of-another-star">Second Earth</a></li>
+			<li><a href="http://apod.nasa.gov/apod/black_holes.htmlhttp://apod.nasa.gov/apod/black_holes.html">Black Holes</a></li>
+		</ul>
+		</li>
+</div>
+		
+		
+		
+	
+
+	
+		
+		
+		
+
+	<!-- End Navigation -->
+	
+<!-- #BeginEditable "content" -->
+			
+			
+<!-- #EndEditable -->
+			
+		
+		
+		<!-- Begin Footer -->
+<footer class="footer">
+  <div class="row">
+    <div class="small-12 columns">
+      <p class="slogan"></p>
+      <p class="links">
+        <a href="default.html">Home</a>
+        <a href="planets/nearbyplanets/default.html">Planets</a>
+        <a href="constellations/stars/default.html">Constellations</a>
+        <a href="celestialevents/comets/default.html">Celestial Events</a>
+        <a href="newfindings/ufo/default.html">New Findings</a>
+      </p>
+      <p class="copywrite"> © Brandon's Space Information 2016</p>
+    </div>
+  </div>
+</footer>   
+<!-- End Footer -->
+		
+	<script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/app.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+    
+
+</body>
+
+</html>
